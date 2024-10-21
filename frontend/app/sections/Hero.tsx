@@ -3,8 +3,11 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <div className="py-16">
-        <div className="grid grid-cols-1 md:grid-cols-10 gap-6">
+      <div className="py-16 shadow-md">
+        <div
+          className="grid grid-cols-1 md:grid-cols-10 gap-6 outline outline-2
+       outline-white/10 rounded-md"
+        >
           <div className="md:col-span-6">
             <Image
               src="/images/image_45.jpg"
