@@ -72,7 +72,7 @@ const RecentHeadlines = () => {
                 href="#"
                 className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
               >
-                How Trump's Mistakes Became Biden's Big Breaks
+                How {"Trump's"} Mistakes Became {"Biden's "}Big Breaks
               </a>
             </div>
             <div className="">
@@ -108,7 +108,7 @@ const RecentHeadlines = () => {
                 href="#"
                 className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
               >
-                How Trump's Mistakes Became Biden's Big Breaks
+                How {"Trump's"} Mistakes Became {"Biden's "}Big Breaks
               </a>
             </div>
             <div className="">
