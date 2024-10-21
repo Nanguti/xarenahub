@@ -90,7 +90,7 @@ const RecentHeadlines = () => {
                 href="#"
                 className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
               >
-                Survey: Many Americans 'Dissatisfied' With U.S.
+                Survey - Many Americans Dissatisfied With U.S.
               </a>
             </div>
             <div className="">
@@ -126,7 +126,7 @@ const RecentHeadlines = () => {
                 href="#"
                 className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
               >
-                Survey: Many Americans 'Dissatisfied' With U.S.
+                Survey - Many Americans Dissatisfied With U.S.
               </a>
             </div>
             <div className="">
