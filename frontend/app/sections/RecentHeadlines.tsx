@@ -11,17 +11,20 @@ const RecentHeadlines = () => {
                 className="bg-cover text-center overflow-hidden"
                 style={{
                   minHeight: 300,
-                  backgroundImage:
-                    'url("https://api.time.com/wp-content/uploads/2020/07/never-trumpers-2020-election-01.jpg?quality=85&w=1201&h=676&crop=1")',
+                  backgroundImage: 'url("/images/image_43.jpg")',
                 }}
                 title="Woman holding a mug"
               ></div>
             </a>
-            <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+            <div
+              className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r 
+            flex flex-col justify-between leading-normal"
+            >
               <div className="">
                 <a
                   href="#"
-                  className="text-xs text-indigo-600 uppercase font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+                  className="text-xs text-indigo-600 uppercase font-medium 
+                  hover:text-gray-900 transition duration-500 ease-in-out"
                 >
                   Election
                 </a>
@@ -44,15 +47,15 @@ const RecentHeadlines = () => {
                 <div
                   className="h-40 bg-cover text-center overflow-hidden"
                   style={{
-                    backgroundImage:
-                      'url("https://api.time.com/wp-content/uploads/2020/07/president-trump-coronavirus-election.jpg?quality=85&w=364&h=204&crop=1")',
+                    backgroundImage: 'url("/images/image_45.jpg")',
                   }}
                   title="Woman holding a mug"
                 ></div>
               </a>
               <a
                 href="#"
-                className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+                className="text-gray-900 inline-block font-semibold text-md my-2 
+                hover:text-indigo-600 transition duration-500 ease-in-out"
               >
                 Trump Steps Back Into Coronavirus Spotlight
               </a>
@@ -62,15 +65,15 @@ const RecentHeadlines = () => {
                 <div
                   className="h-40 bg-cover text-center overflow-hidden"
                   style={{
-                    backgroundImage:
-                      'url("https://api.time.com/wp-content/uploads/2020/06/GettyImages-1222922545.jpg?quality=85&w=364&h=204&crop=1")',
+                    backgroundImage: 'url("/images/image_17.jpg")',
                   }}
                   title="Woman holding a mug"
                 ></div>
               </a>
               <a
                 href="#"
-                className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+                className="text-gray-900 inline-block font-semibold text-md my-2 
+                hover:text-indigo-600 transition duration-500 ease-in-out"
               >
                 How {"Trump's"} Mistakes Became {"Biden's "}Big Breaks
               </a>
@@ -80,15 +83,15 @@ const RecentHeadlines = () => {
                 <div
                   className="h-40 bg-cover text-center overflow-hidden"
                   style={{
-                    backgroundImage:
-                      'url("https://api.time.com/wp-content/uploads/2020/07/American-Flag.jpg?quality=85&w=364&h=204&crop=1")',
+                    backgroundImage: 'url("/images/image_45.jpg")',
                   }}
                   title="Woman holding a mug"
                 ></div>
               </a>
               <a
                 href="#"
-                className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+                className="text-gray-900 inline-block font-semibold text-md my-2
+                 hover:text-indigo-600 transition duration-500 ease-in-out"
               >
                 Survey - Many Americans Dissatisfied With U.S.
               </a>
@@ -98,15 +101,15 @@ const RecentHeadlines = () => {
                 <div
                   className="h-40 bg-cover text-center overflow-hidden"
                   style={{
-                    backgroundImage:
-                      'url("https://api.time.com/wp-content/uploads/2020/06/GettyImages-1222922545.jpg?quality=85&w=364&h=204&crop=1")',
+                    backgroundImage: 'url("/images/image_45.jpg")',
                   }}
                   title="Woman holding a mug"
                 ></div>
               </a>
               <a
                 href="#"
-                className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+                className="text-gray-900 inline-block font-semibold text-md my-2 
+                hover:text-indigo-600 transition duration-500 ease-in-out"
               >
                 How {"Trump's"} Mistakes Became {"Biden's "}Big Breaks
               </a>
@@ -116,15 +119,15 @@ const RecentHeadlines = () => {
                 <div
                   className="h-40 bg-cover text-center overflow-hidden"
                   style={{
-                    backgroundImage:
-                      'url("https://api.time.com/wp-content/uploads/2020/07/American-Flag.jpg?quality=85&w=364&h=204&crop=1")',
+                    backgroundImage: 'url("/images/image_45.jpg")',
                   }}
                   title="Woman holding a mug"
                 ></div>
               </a>
               <a
                 href="#"
-                className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+                className="text-gray-900 inline-block font-semibold text-md my-2
+                 hover:text-indigo-600 transition duration-500 ease-in-out"
               >
                 Survey - Many Americans Dissatisfied With U.S.
               </a>
@@ -134,15 +137,15 @@ const RecentHeadlines = () => {
                 <div
                   className="h-40 bg-cover text-center overflow-hidden"
                   style={{
-                    backgroundImage:
-                      'url("https://api.time.com/wp-content/uploads/2020/07/president-trump-coronavirus-election.jpg?quality=85&w=364&h=204&crop=1")',
+                    backgroundImage: 'url("/images/image_45.jpg")',
                   }}
                   title="Woman holding a mug"
                 ></div>
               </a>
               <a
                 href="#"
-                className="text-gray-900 inline-block font-semibold text-md my-2 hover:text-indigo-600 transition duration-500 ease-in-out"
+                className="text-gray-900 inline-block font-semibold text-md my-2
+                 hover:text-indigo-600 transition duration-500 ease-in-out"
               >
                 Trump Steps Back Into Coronavirus Spotlight
               </a>

@@ -11,7 +11,7 @@ const LatestDeals = () => {
               <a href="#">
                 <img
                   className="w-full"
-                  src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  src="/images/image_26.jpg"
                   alt="Sunset in the mountains"
                 />
                 <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -76,7 +76,7 @@ const LatestDeals = () => {
               <a href="#">
                 <img
                   className="w-full"
-                  src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  src="/images/image_28.jpg"
                   alt="Sunset in the mountains"
                 />
                 <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -137,7 +137,7 @@ const LatestDeals = () => {
               <a href="#">
                 <img
                   className="w-full"
-                  src="https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  src="/images/image_30.jpg"
                   alt="Sunset in the mountains"
                 />
                 <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>

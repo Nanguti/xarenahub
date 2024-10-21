@@ -1,14 +1,18 @@
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <>
       <div className="py-16">
         <div className="grid grid-cols-1 md:grid-cols-10 gap-6">
-          {/* Image Section */}
           <div className="md:col-span-6">
-            <img
-              src="https://m-cdn.phonearena.com/images/review/6708-wide-two_940/Xiaomi-Smart-Band-9-Review-A-great-fitness-tracker-on-a-budget.webp?1729247434"
+            <Image
+              src="/images/image_45.jpg"
               alt="Xiaomi Band 9"
               className="rounded-md w-full"
+              layout="responsive"
+              width={100}
+              height={20}
             />
           </div>
 
@@ -32,16 +36,24 @@ const Hero = () => {
         </div>
 
         <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:py-5">
-          <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+          <li
+            className="relative bg-white flex flex-col justify-between border rounded 
+          shadow-md hover:shadow-primary-400"
+          >
             <a className="relative" href="/tool/writey-ai">
               <div className="relative w-full aspect-video">
-                <img
-                  className="rounded w-full h-full object-cover"
-                  src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080"
-                  alt="Writey A.I"
-                  loading="lazy"
+                <Image
+                  src="/images/image_24.jpg"
+                  alt="Xiaomi Band 9"
+                  className="rounded-md w-full"
+                  layout="responsive"
+                  width={100}
+                  height={20}
                 />
-                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                <div
+                  className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b
+                 from-gray-800 to-gray-500 text-white"
+                >
                   <h2 className="text-xl font-semibold">Writey A.I</h2>
                   <p className="font-medium text-sm">
                     Most advanced language A.I
@@ -92,16 +104,24 @@ const Hero = () => {
               </ul>
             </div>
           </li>
-          <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+          <li
+            className="relative bg-white flex flex-col justify-between border rounded 
+          shadow-md hover:shadow-primary-400"
+          >
             <a className="relative" href="/tool/blogseo-ai">
               <div className="relative w-full aspect-video">
-                <img
-                  className="rounded w-full h-full object-cover"
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080"
-                  alt="BlogSEO AI"
-                  loading="lazy"
+                <Image
+                  src="/images/image_19.jpg"
+                  alt="Xiaomi Band 9"
+                  className="rounded-md w-full"
+                  layout="responsive"
+                  width={100}
+                  height={20}
                 />
-                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                <div
+                  className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b 
+                from-gray-800 to-gray-500 text-white"
+                >
                   <h2 className="text-xl font-semibold">BlogSEO AI</h2>
                   <p className="font-medium text-sm">
                     AI Writer for SEO‍ That Follows Best Practices
@@ -119,7 +139,8 @@ const Hero = () => {
               <ul className="flex flex-wrap items-center justify-start text-sm gap-2">
                 <li
                   title="Pricing type"
-                  className="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full"
+                  className="flex items-center cursor-pointer gap-0.5 bg-gray-100 
+                  text-black px-2 py-0.5 rounded-full"
                 >
                   <svg
                     className="w-4 h-4"
@@ -138,7 +159,8 @@ const Hero = () => {
                 </li>
                 <li
                   title="Support for API"
-                  className="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full"
+                  className="flex items-center cursor-pointer gap-0.5 bg-gray-100 
+                  text-black px-2 py-0.5 rounded-full"
                 >
                   <svg
                     className="w-4 h-4"
@@ -147,7 +169,8 @@ const Hero = () => {
                     fill="none"
                   >
                     <path
-                      d="M17 9V12C17 14.7614 14.7614 17 12 17M7 9V12C7 14.7614 9.23858 17 12 17M12 17V21M8 3V6M16 3V6M5 9H19"
+                      d="M17 9V12C17 14.7614 14.7614 17 12 17M7 9V12C7 14.7614 9.23858 17 
+                      12 17M12 17V21M8 3V6M16 3V6M5 9H19"
                       stroke="currentColor"
                       strokeWidth={2}
                       strokeLinecap="round"
@@ -170,14 +193,19 @@ const Hero = () => {
               </ul>
             </div>
           </li>
-          <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+          <li
+            className="relative bg-white flex flex-col justify-between border 
+          rounded shadow-md hover:shadow-primary-400"
+          >
             <a className="relative" href="/tool/typewise">
               <div className="relative w-full aspect-video">
-                <img
-                  className="rounded w-full h-full object-cover"
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080"
-                  alt="Typewise"
-                  loading="lazy"
+                <Image
+                  src="/images/image_16.jpg"
+                  alt="Xiaomi Band 9"
+                  className="rounded-md w-full"
+                  layout="responsive"
+                  width={100}
+                  height={20}
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
                   <h2 className="text-xl font-semibold">Typewise</h2>
@@ -214,7 +242,8 @@ const Hero = () => {
                 </li>
                 <li
                   title="Support for API"
-                  className="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full"
+                  className="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black
+                   px-2 py-0.5 rounded-full"
                 >
                   <svg
                     className="w-4 h-4"
@@ -223,7 +252,8 @@ const Hero = () => {
                     fill="none"
                   >
                     <path
-                      d="M17 9V12C17 14.7614 14.7614 17 12 17M7 9V12C7 14.7614 9.23858 17 12 17M12 17V21M8 3V6M16 3V6M5 9H19"
+                      d="M17 9V12C17 14.7614 14.7614 17 12 17M7 9V12C7 14.7614 9.23858 17 12
+                       17M12 17V21M8 3V6M16 3V6M5 9H19"
                       stroke="currentColor"
                       strokeWidth={2}
                       strokeLinecap="round"
