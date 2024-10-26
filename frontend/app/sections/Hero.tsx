@@ -4,11 +4,11 @@ const Hero = () => {
   return (
     <>
       <div className="py-16 shadow-md">
-        <div
-          className="grid grid-cols-1 md:grid-cols-10 gap-6 outline outline-2
+        <div className="grid grid-cols-1 md:grid-cols-10 gap-6 ">
+          <div
+            className="md:col-span-6 outline outline-2
        outline-white/10 rounded-md"
-        >
-          <div className="md:col-span-6">
+          >
             <Image
               src="/images/image_45.jpg"
               alt="Xiaomi Band 9"
@@ -20,8 +20,14 @@ const Hero = () => {
           </div>
 
           {/* Text Section */}
-          <div className="md:col-span-4 flex flex-col justify-center">
-            <h1 className="text-4xl font-bold text-blue-400">
+          <div
+            className="md:col-span-4 flex flex-col justify-center px-4 outline outline-2
+       outline-white/20 rounded-md"
+          >
+            <h1
+              className="text-4xl font-bold uppercase tracking-widest 
+              bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text"
+            >
               Xiaomi Smart Band 9 Review: A great fitness...
             </h1>
             <div className="flex items-center space-x-2 mt-2">

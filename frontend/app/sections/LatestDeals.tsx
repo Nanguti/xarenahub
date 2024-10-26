@@ -1,9 +1,15 @@
 import React from "react";
+import Heading from "./Heading";
 
 const LatestDeals = () => {
   return (
     <div className="py-16">
-      <div className="max-w-screen-xl mx-auto sm:p-10 md:p-16 bg-white">
+      <Heading
+        title="Latest Deals"
+        eyebrow="Glimpse into my world"
+        description=""
+      />
+      <div className="max-w-screen-xl mx-auto sm:p-10 md:p-16 bg-white rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
           <div className="rounded overflow-hidden shadow-lg">
             <a href="#" />
@@ -14,15 +20,27 @@ const LatestDeals = () => {
                   src="/images/image_26.jpg"
                   alt="Sunset in the mountains"
                 />
-                <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+                <div
+                  className="hover:bg-transparent transition duration-300 absolute
+                 bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"
+                ></div>
               </a>
               <a href="#!">
-                <div className="absolute bottom-0 left-0 bg-indigo-600 px-4 py-2 text-white text-sm hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                <div
+                  className="absolute bottom-0 left-0 bg-gradient-to-r from-emerald-300 to-sky-400
+                   px-4 py-2 
+                text-white text-sm hover:bg-white hover:text-indigo-600 transition 
+                duration-500 ease-in-out"
+                >
                   Photos
                 </div>
               </a>
               <a href="!#">
-                <div className="text-sm absolute top-0 right-0 bg-indigo-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                <div
+                  className="text-sm absolute top-0 right-0 bg-gradient-to-r from-emerald-300 to-sky-400 px-4
+                 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center 
+                 mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out"
+                >
                   <span className="font-bold">27</span>
                   <small>March</small>
                 </div>
@@ -82,7 +100,10 @@ const LatestDeals = () => {
                 <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
               </a>
               <a href="#!">
-                <div className="absolute bottom-0 left-0 bg-indigo-600 px-4 py-2 text-white text-sm hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                <div
+                  className="absolute bottom-0 left-0 bg-indigo-600 px-4 py-2 text-white 
+                text-sm hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out"
+                >
                   Photos
                 </div>
               </a>

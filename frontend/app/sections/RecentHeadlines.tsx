@@ -1,9 +1,15 @@
 import React from "react";
+import Heading from "./Heading";
 
 const RecentHeadlines = () => {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative bg-white">
+      <Heading
+        title="Recent Headlines"
+        eyebrow="Glimpse into my world"
+        description=""
+      />
+      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative bg-white rounded-md">
         <div className="grid grid-cols-1 sm:grid-cols-12 gap-5">
           <div className="sm:col-span-5">
             <a href="#">

@@ -1,9 +1,15 @@
 import Image from "next/image";
 import React from "react";
+import Heading from "./Heading";
 
 const UpcomingRelease = () => {
   return (
     <>
+      <Heading
+        title="Upcoming Release"
+        eyebrow="Glimpse into my world"
+        description=""
+      />
       <div className="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
         <div className="relative">
           <div
@@ -136,7 +142,10 @@ const UpcomingRelease = () => {
             </div>
           </div>
         </div>
-        <div className="relative">
+        <div
+          className="relative outline outline-2
+       outline-white/20 p-4 rounded-md"
+        >
           <div
             className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 
           lg:gap-24 lg:px-8 "

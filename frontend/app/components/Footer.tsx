@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
               <div className="px-4 my-4 w-full sm:w-auto">
                 <div>
-                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">
+                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-sky-400">
                     Company
                   </h2>
                 </div>
@@ -85,7 +85,7 @@ const Footer = () => {
               </div>
               <div className="px-4 my-4 w-full sm:w-auto">
                 <div>
-                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">
+                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-sky-400">
                     Blog
                   </h2>
                 </div>
@@ -119,7 +119,7 @@ const Footer = () => {
               </div>
               <div className="px-4 my-4 w-full sm:w-auto xl:w-1/5">
                 <div>
-                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600">
+                  <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-sky-400">
                     Connect With Us
                   </h2>
                 </div>
@@ -180,7 +180,8 @@ const Footer = () => {
                 </a>
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400"
+                  className="inline-flex items-center justify-center h-8 w-8 border 
+                  border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400"
                 >
                   <svg
                     className="w-4 h-4 fill-current"
@@ -194,7 +195,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-600 py-4 text-gray-100">
+        <div className="border-t-gray-600 py-4 text-gray-100">
           <div className="container mx-auto px-4">
             <div className="-mx-4 flex flex-wrap justify-between">
               <div className="px-4 w-full text-center sm:w-auto sm:text-left">

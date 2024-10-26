@@ -1,8 +1,14 @@
 import React from "react";
+import Heading from "./Heading";
 
 const Reviews = () => {
   return (
     <>
+      <Heading
+        title="What you need"
+        eyebrow="Glimpse into my world"
+        description=""
+      />
       <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative bg-white rounded-md">
         <div className="grid grid-cols-1 sm:grid-cols-12 gap-10">
           <div className="sm:col-span-6 lg:col-span-5">
@@ -46,9 +52,9 @@ const Reviews = () => {
             <div className="flex items-start mb-3 pb-3">
               <a href="#" className="inline-block mr-3">
                 <div
-                  className="w-20 h-20 bg-cover bg-center"
+                  className="w-20 h-20 bg-cover bg-center rounded-md"
                   style={{
-                    backgroundImage: 'url("/images/image_104.jpg")',
+                    backgroundImage: 'url("/images/image_111.jpg")',
                   }}
                 ></div>
               </a>
@@ -65,9 +71,9 @@ const Reviews = () => {
             <div className="flex items-start mb-3 pb-3">
               <a href="#" className="inline-block mr-3">
                 <div
-                  className="w-20 h-20 bg-cover bg-center"
+                  className="w-20 h-20 bg-cover bg-center rounded-md"
                   style={{
-                    backgroundImage: 'url("/images/image_104.jpg")',
+                    backgroundImage: 'url("/images/image_91.jpg")',
                   }}
                 ></div>
               </a>
@@ -84,9 +90,9 @@ const Reviews = () => {
             <div className="flex items-start mb-3 pb-3">
               <a href="#" className="inline-block mr-3">
                 <div
-                  className="w-20 h-20 bg-cover bg-center"
+                  className="w-20 h-20 bg-cover bg-center rounded-md"
                   style={{
-                    backgroundImage: 'url("/images/image_104.jpg")',
+                    backgroundImage: 'url("/images/image_9.jpg")',
                   }}
                 ></div>
               </a>
@@ -103,9 +109,9 @@ const Reviews = () => {
             <div className="flex items-start">
               <a href="#" className="inline-block mr-3">
                 <div
-                  className="w-20 h-20 bg-cover bg-center"
+                  className="w-20 h-20 bg-cover bg-center rounded-md"
                   style={{
-                    backgroundImage: 'url("/images/image_104.jpg")',
+                    backgroundImage: 'url("/images/image_91.jpg")',
                   }}
                 ></div>
               </a>

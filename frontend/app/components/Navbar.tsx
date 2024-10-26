@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <>
-      <nav className="flex justify-between items-center p-4 bg-gray-800 rounded-md">
+      <nav className="flex justify-between items-center p-4 bg-gray-950 rounded-md mt-2">
         <div className="flex items-center space-x-4">
           {/* Logo */}
           <div className="text-2xl font-bold">Phone Arena</div>
