@@ -1,11 +1,14 @@
 import React from "react";
 
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <>
       <footer>
         <div className="pt-16 text-gray-400">
-          <div className="container px-4 mx-auto">
+          <div className=" px-4 mx-auto">
             <div className="-mx-4 flex flex-wrap justify-between">
               <div className="px-4 my-4 w-full xl:w-1/5">
                 <a href="/" className="block w-56 mb-10">
@@ -133,7 +136,10 @@ const Footer = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 320 512"
                   >
-                    <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                    <path
+                      d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 
+                    0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                    />
                   </svg>
                 </a>
                 <a
@@ -196,10 +202,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t-gray-600 py-4 text-gray-100">
-          <div className="container mx-auto px-4">
+          <div className=" mx-auto px-4">
             <div className="-mx-4 flex flex-wrap justify-between">
               <div className="px-4 w-full text-center sm:w-auto sm:text-left">
-                Copyright © 2020 - 2022 Tailwindow. All Rights Reserved.
+                Copyright {year}. All Rights Reserved.
               </div>
               <div className="px-4 w-full text-center sm:w-auto sm:text-left">
                 Made with ❤️ by Tailwindow.

@@ -9,7 +9,7 @@ const LatestDeals = () => {
         eyebrow="Glimpse into my world"
         description=""
       />
-      <div className="max-w-screen-xl mx-auto sm:p-10 md:p-16 bg-white rounded-md">
+      <div className="mx-auto sm:p-10 md:p-16 bg-white rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
           <div className="rounded overflow-hidden shadow-lg">
             <a href="#" />

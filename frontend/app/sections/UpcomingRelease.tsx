@@ -4,16 +4,16 @@ import Heading from "./Heading";
 
 const UpcomingRelease = () => {
   return (
-    <>
+    <div className="my-16">
       <Heading
         title="Upcoming Release"
         eyebrow="Glimpse into my world"
         description=""
       />
-      <div className="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
+      <div className="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24 ">
         <div className="relative">
           <div
-            className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 
+            className="lg:mx-auto lg:grid lg:grid-flow-col-dense lg:grid-cols-2 
           lg:gap-24 lg:px-8 "
           >
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
@@ -32,7 +32,8 @@ const UpcomingRelease = () => {
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+                        d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 
+                        2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
                       ></path>
                     </svg>
                   </span>
@@ -59,15 +60,14 @@ const UpcomingRelease = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="mt-12 sm:mt-16 lg:mt-0 flex justify-center">
+              <div className="pl-6 lg:relative lg:m-0 lg:h-full lg:px-0 flex justify-center items-center">
                 <Image
                   loading="lazy"
                   width={647}
                   height={486}
                   alt=""
-                  className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5
-                   lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  className="w-full max-w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5"
                   style={{ color: "transparent" }}
                   src="/images/image_45.jpg"
                 />
@@ -77,7 +77,7 @@ const UpcomingRelease = () => {
         </div>
         <div className="relative">
           <div
-            className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 
+            className="lg:mx-auto lg:grid lg:grid-flow-col-dense lg:grid-cols-2 
           lg:gap-24 lg:px-8 "
           >
             <div
@@ -142,12 +142,9 @@ const UpcomingRelease = () => {
             </div>
           </div>
         </div>
-        <div
-          className="relative outline outline-2
-       outline-white/20 p-4 rounded-md"
-        >
+        <div className="relative ">
           <div
-            className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 
+            className="lg:mx-auto lg:grid  lg:grid-flow-col-dense lg:grid-cols-2 
           lg:gap-24 lg:px-8 "
           >
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
@@ -193,8 +190,8 @@ const UpcomingRelease = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="mt-12 sm:mt-16 lg:mt-0 flex justify-center">
+              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0 flex justify-center items-center">
                 <Image
                   loading="lazy"
                   width={647}
@@ -210,7 +207,7 @@ const UpcomingRelease = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
